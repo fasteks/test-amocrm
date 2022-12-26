@@ -1,11 +1,27 @@
 body,
 html {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
   max-width: 100%;
   min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: #E4E5EA;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 *, *::before, *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+a {
+  color: #e4e5ea;
+  text-decoration: none;
 }
 
 /* inter-regular - latin-ext_latin_cyrillic-ext_cyrillic */
